@@ -84,4 +84,4 @@ def api_img_similarity():
     else:
         return jsonify(img_comparison(input1, input2))
 
-app.run()
+app.run(host='0.0.0.0')
